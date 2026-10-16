@@ -1,2 +1,2 @@
--- etape 1
+-- etape 1, 2
 select * from plat;
