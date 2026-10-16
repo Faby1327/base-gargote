@@ -12,3 +12,14 @@
 
 ## Question « Piège »
 - c'est pour eviter des erreurs comme , par exemple écrire « Plat malagasy » sur certains plats et « Plats malagasy » sur d'autres,
+
+
+
+# Étape 3
+
+- COMMANDE (**id_commande**, date_commande) (nouveau)
+- COMMANDE_DETAILLE (**#id_commande**, **#id_plat**, quantite, prix_unitaire) (nouveau)
+
+## Question « Piège »
+
+- La quantité doit être placée dans la table `COMMANDE_DETAILLE`, car elle dépend du plat dans une commande.
